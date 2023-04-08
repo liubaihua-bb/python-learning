@@ -1,0 +1,6 @@
+
+*.jpg
+*.txt
+*.gif
+*.jpeg
+pytorch/cifar10_dataset/cifar-10-python.tar.gz
