@@ -27,7 +27,7 @@ bees_dataset = MyData(root_dir, bees_label_dir)
 
 # img, label = bees_dataset[1]
 # img.show()
-
+print(bees_dataset[1])#(<PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=500x333 at 0x1E2FC9586A0>, 'bees')
 train_dataset = ants_dataset + bees_dataset
 
 # print(len(ants_dataset))#124
